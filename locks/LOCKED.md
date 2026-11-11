@@ -274,3 +274,11 @@ These lines are baked into this repo's own pastes. They come from pre-run 7's wo
 ## Locked during pre-run 8
 
 When a fix works, append it here, one block per fix, in the form shown above: UTC time, what failed or worked, what was changed, why that change stays.
+
+```
+- 2026-11-11T23:43:39Z.
+- What worked: (iv) the desk's private TN10 node counted every minute from the counter's start to the end of the 5-minute tail. No minute was LAGGING: DAA gap at most 7 against the kept public kaspad, sink age at most about 1.2 s, each minute final about 20 s after its end. Every step file has submit-OK and included side by side. (v) The three tiers were verified on the submit rows (FEE_SPLIT 100/200/300) and read apart on the chain: at every congested step triple landed more than double and double more than floor. (iii) and (i) held again: six senders on two unique kaspads, HOLD-1, HOLD-2, HOLD-3 and RETURN met on their first three minutes, HOLD-4 read 234,063, no repair, every count file on origin on the first try. The bot filed a legal NO SEND no-free-node. The run needed one local fix before it opened: the desk's private run folder had no candidates file (the first open read HELD desk-node-down preflight-unread); pre-run 7's candidate list was copied in, private, and the open passed.
+- What failed: nothing in the runner. Findings: blocks took about 110,000-132,000 accepted transactions a minute, so HOLD-3 and HOLD-4 built a backlog that drained through RETURN and the tail; from HOLD-2 on even the triple tier (twice the payment fee) fell to a fraction of its HOLD-1 rate, and the floor families stopped from 23:29Z. Mini read every minute but counts above the desk (it keys by block and id and does not take removed chain blocks out), so it is not a comparable second read.
+- What was changed: nothing in this run. The runner was not restarted.
+- Why that change stays: (iv) kept pace under the heaviest load this rehearsal has offered, so a next repo keeps the desk counter as the inclusion figure. A next repo checks its private candidates file in the open gate before it reads the node as down.
+```
