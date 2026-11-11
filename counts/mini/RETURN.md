@@ -1,0 +1,80 @@
+# RETURN
+
+READ 3 of 3 minutes read in full on Mini's node
+
+The desk's head for this step is MET. That is the desk's verdict on its submit-OK, not Mini's.
+
+coins were not one size
+
+Target 1013.
+accept_utc is the accepting block header time.
+Cohort floor is families 1-6 (100). Cohort double is families 7-11 (200). Cohort triple is families 12-16 (300).
+noncoinbase is accepted transactions that are not coinbase. It includes base load.
+sync, daa, and merged_bps are this node's marks. They do not gate the desk.
+
+## Minutes not read in full
+
+none
+
+## Cohorts
+
+```
+minute,floor_hops,double_hops,triple_hops,noncoinbase,sync,daa,merged_bps,read,unlabeled_hops
+2026-11-11T23:35Z,0,216,340,158704,1,621038515,6.2,1,142
+2026-11-11T23:36Z,0,326,360,153653,1,621039083,6.0,1,88
+2026-11-11T23:37Z,0,308,312,148217,1,621039616,5.6,1,98
+```
+
+## Families
+
+```
+minute,family,hops
+2026-11-11T23:35Z,1,0
+2026-11-11T23:35Z,2,0
+2026-11-11T23:35Z,3,0
+2026-11-11T23:35Z,4,0
+2026-11-11T23:35Z,5,0
+2026-11-11T23:35Z,6,0
+2026-11-11T23:35Z,7,54
+2026-11-11T23:35Z,8,72
+2026-11-11T23:35Z,9,42
+2026-11-11T23:35Z,10,0
+2026-11-11T23:35Z,11,48
+2026-11-11T23:35Z,12,70
+2026-11-11T23:35Z,13,70
+2026-11-11T23:35Z,14,72
+2026-11-11T23:35Z,15,72
+2026-11-11T23:35Z,16,56
+2026-11-11T23:36Z,1,0
+2026-11-11T23:36Z,2,0
+2026-11-11T23:36Z,3,0
+2026-11-11T23:36Z,4,0
+2026-11-11T23:36Z,5,0
+2026-11-11T23:36Z,6,0
+2026-11-11T23:36Z,7,76
+2026-11-11T23:36Z,8,74
+2026-11-11T23:36Z,9,66
+2026-11-11T23:36Z,10,38
+2026-11-11T23:36Z,11,72
+2026-11-11T23:36Z,12,74
+2026-11-11T23:36Z,13,72
+2026-11-11T23:36Z,14,72
+2026-11-11T23:36Z,15,70
+2026-11-11T23:36Z,16,72
+2026-11-11T23:37Z,1,0
+2026-11-11T23:37Z,2,0
+2026-11-11T23:37Z,3,0
+2026-11-11T23:37Z,4,0
+2026-11-11T23:37Z,5,0
+2026-11-11T23:37Z,6,0
+2026-11-11T23:37Z,7,58
+2026-11-11T23:37Z,8,60
+2026-11-11T23:37Z,9,70
+2026-11-11T23:37Z,10,60
+2026-11-11T23:37Z,11,60
+2026-11-11T23:37Z,12,62
+2026-11-11T23:37Z,13,60
+2026-11-11T23:37Z,14,60
+2026-11-11T23:37Z,15,62
+2026-11-11T23:37Z,16,68
+```
