@@ -1,0 +1,80 @@
+# HOLD-2
+
+READ 3 of 3 minutes read in full on Mini's node
+
+The desk's head for this step is MET. That is the desk's verdict on its submit-OK, not Mini's.
+
+coins were not one size
+
+Target 2027.
+accept_utc is the accepting block header time.
+Cohort floor is families 1-6 (100). Cohort double is families 7-11 (200). Cohort triple is families 12-16 (300).
+noncoinbase is accepted transactions that are not coinbase. It includes base load.
+sync, daa, and merged_bps are this node's marks. They do not gate the desk.
+
+## Minutes not read in full
+
+none
+
+## Cohorts
+
+```
+minute,floor_hops,double_hops,triple_hops,noncoinbase,sync,daa,merged_bps,read,unlabeled_hops
+2026-11-11T23:22Z,12,68,128,163050,1,621031728,6.0,1,108
+2026-11-11T23:23Z,4,40,136,163209,1,621032244,5.9,1,81
+2026-11-11T23:24Z,2,32,96,175712,1,621032758,5.9,1,72
+```
+
+## Families
+
+```
+minute,family,hops
+2026-11-11T23:22Z,1,2
+2026-11-11T23:22Z,2,2
+2026-11-11T23:22Z,3,2
+2026-11-11T23:22Z,4,0
+2026-11-11T23:22Z,5,0
+2026-11-11T23:22Z,6,6
+2026-11-11T23:22Z,7,10
+2026-11-11T23:22Z,8,12
+2026-11-11T23:22Z,9,16
+2026-11-11T23:22Z,10,18
+2026-11-11T23:22Z,11,12
+2026-11-11T23:22Z,12,20
+2026-11-11T23:22Z,13,18
+2026-11-11T23:22Z,14,30
+2026-11-11T23:22Z,15,22
+2026-11-11T23:22Z,16,38
+2026-11-11T23:23Z,1,0
+2026-11-11T23:23Z,2,0
+2026-11-11T23:23Z,3,0
+2026-11-11T23:23Z,4,0
+2026-11-11T23:23Z,5,0
+2026-11-11T23:23Z,6,4
+2026-11-11T23:23Z,7,4
+2026-11-11T23:23Z,8,12
+2026-11-11T23:23Z,9,20
+2026-11-11T23:23Z,10,0
+2026-11-11T23:23Z,11,4
+2026-11-11T23:23Z,12,30
+2026-11-11T23:23Z,13,28
+2026-11-11T23:23Z,14,22
+2026-11-11T23:23Z,15,28
+2026-11-11T23:23Z,16,28
+2026-11-11T23:24Z,1,0
+2026-11-11T23:24Z,2,0
+2026-11-11T23:24Z,3,2
+2026-11-11T23:24Z,4,0
+2026-11-11T23:24Z,5,0
+2026-11-11T23:24Z,6,0
+2026-11-11T23:24Z,7,16
+2026-11-11T23:24Z,8,0
+2026-11-11T23:24Z,9,6
+2026-11-11T23:24Z,10,4
+2026-11-11T23:24Z,11,6
+2026-11-11T23:24Z,12,18
+2026-11-11T23:24Z,13,12
+2026-11-11T23:24Z,14,20
+2026-11-11T23:24Z,15,22
+2026-11-11T23:24Z,16,24
+```
