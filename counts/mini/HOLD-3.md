@@ -1,0 +1,80 @@
+# HOLD-3
+
+READ 3 of 3 minutes read in full on Mini's node
+
+The desk's head for this step is MET. That is the desk's verdict on its submit-OK, not Mini's.
+
+coins were not one size
+
+Target 3040.
+accept_utc is the accepting block header time.
+Cohort floor is families 1-6 (100). Cohort double is families 7-11 (200). Cohort triple is families 12-16 (300).
+noncoinbase is accepted transactions that are not coinbase. It includes base load.
+sync, daa, and merged_bps are this node's marks. They do not gate the desk.
+
+## Minutes not read in full
+
+none
+
+## Cohorts
+
+```
+minute,floor_hops,double_hops,triple_hops,noncoinbase,sync,daa,merged_bps,read,unlabeled_hops
+2026-11-11T23:26Z,0,10,42,136448,1,621033785,4.5,1,44
+2026-11-11T23:27Z,144,152,180,164858,1,621034300,5.3,1,206
+2026-11-11T23:28Z,258,150,188,133204,1,621034767,4.9,1,95
+```
+
+## Families
+
+```
+minute,family,hops
+2026-11-11T23:26Z,1,0
+2026-11-11T23:26Z,2,0
+2026-11-11T23:26Z,3,0
+2026-11-11T23:26Z,4,0
+2026-11-11T23:26Z,5,0
+2026-11-11T23:26Z,6,0
+2026-11-11T23:26Z,7,2
+2026-11-11T23:26Z,8,2
+2026-11-11T23:26Z,9,4
+2026-11-11T23:26Z,10,2
+2026-11-11T23:26Z,11,0
+2026-11-11T23:26Z,12,4
+2026-11-11T23:26Z,13,8
+2026-11-11T23:26Z,14,12
+2026-11-11T23:26Z,15,8
+2026-11-11T23:26Z,16,10
+2026-11-11T23:27Z,1,26
+2026-11-11T23:27Z,2,26
+2026-11-11T23:27Z,3,24
+2026-11-11T23:27Z,4,24
+2026-11-11T23:27Z,5,22
+2026-11-11T23:27Z,6,22
+2026-11-11T23:27Z,7,24
+2026-11-11T23:27Z,8,28
+2026-11-11T23:27Z,9,36
+2026-11-11T23:27Z,10,36
+2026-11-11T23:27Z,11,28
+2026-11-11T23:27Z,12,38
+2026-11-11T23:27Z,13,26
+2026-11-11T23:27Z,14,38
+2026-11-11T23:27Z,15,42
+2026-11-11T23:27Z,16,36
+2026-11-11T23:28Z,1,50
+2026-11-11T23:28Z,2,50
+2026-11-11T23:28Z,3,16
+2026-11-11T23:28Z,4,46
+2026-11-11T23:28Z,5,48
+2026-11-11T23:28Z,6,48
+2026-11-11T23:28Z,7,46
+2026-11-11T23:28Z,8,16
+2026-11-11T23:28Z,9,20
+2026-11-11T23:28Z,10,18
+2026-11-11T23:28Z,11,50
+2026-11-11T23:28Z,12,50
+2026-11-11T23:28Z,13,26
+2026-11-11T23:28Z,14,34
+2026-11-11T23:28Z,15,28
+2026-11-11T23:28Z,16,50
+```
